@@ -20,7 +20,8 @@
 
 h1 {
 
-    font-size: 10px;
+    font-size: 30px;
+    
 }
 
 header {
@@ -32,9 +33,18 @@ header {
 
 nav {
 
-    height: 50vh;
+    height: 10vh;
+    display: flex; 
+    justify-content: center; 
 
+}
 
+.navLinks {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute; 
+    right: 0px;
 }
 
 
@@ -49,7 +59,7 @@ main {
 
 footer {
 
-    height: 30vh;
+    height: 50vh;
     text-align: center;
     background-color: pink;
 }
