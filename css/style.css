@@ -1,14 +1,13 @@
 * {
-    margin: 0;
-    padding:0;
-    box-sizing: 30vh;
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
 }
 
 
 
 #container {
- display: grid;
- height: 30vh;
+ 
  grid-template: 
  'hd'
  'nv'
@@ -25,40 +24,35 @@ h1 {
 }
 
 header {
-
+    grid-area: hd;
     text-align: center;
     background-color: lavenderblush;
 }
 
 
-nav {
 
-    height: 10vh;
-    display: flex; 
-    justify-content: center; 
+
+h2 {
+display: flex;
+font-size: 15px;
+justify-content: space-evenly;
+margin: 0px;
+color: pink;
+font-family: 'Lucida Sans';
 
 }
-
-.navLinks {
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-around;
-    position: absolute; 
-    right: 0px;
-}
-
 
 main {
-
-    height: 50vh;
-    text-align: center;
-    background-color: lightpink;
+ grid-area: mn;
+ height: 50vh;
+ text-align: center;
+ background-color: lightpink;
 
 }
 
 
 footer {
-
+    grid-area: ft;
     height: 50vh;
     text-align: center;
     background-color: pink;
@@ -66,10 +60,10 @@ footer {
 
 
 aside {
-
-    height: 25vh;
-    text-align: center;
-    background-color: mistyrose;
+grid-area: as;
+height: 20vh;
+ text-align: center;
+ background-color: mistyrose;
 
 
 }
