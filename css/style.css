@@ -38,7 +38,7 @@ font-size: 15px;
 justify-content: space-evenly;
 margin: 0px;
 color: pink;
-font-family: 'Lucida Sans';
+
 
 }
 
@@ -48,6 +48,11 @@ main {
  text-align: center;
  background-color: lightpink;
 
+}
+
+.sale {
+    height: 50vh;
+    width: 50vh;
 }
 
 
@@ -61,9 +66,29 @@ footer {
 
 aside {
 grid-area: as;
-height: 20vh;
+height: 50vh;
  text-align: center;
  background-color: mistyrose;
 
 
 }
+
+.row {
+
+text-align: left;
+
+
+}
+
+.column {
+
+    text-align: center;
+    
+    
+}
+
+.side {
+
+    text-align: right;
+}
+
