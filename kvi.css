@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+#container {
+ 
+    grid-template: 
+    'hd'
+    'nv'
+    'mn'
+    'ft'
+    'as'
+    
+   }
+
+
+
+   header {
+
+    grid-area: hd;
+
+    background-color: lavenderblush;
+
+
+   }
